@@ -1,8 +1,12 @@
 # Git for Collaborative work Workshop 2022
+
 __IMPRS conference workshop 2022__
-June 3rd 13am - 15pm
-Location: tba
-Online link: https://radbouduniversity.zoom.us/j/84154026905?pwd=Y3FZOVgzY2thTzdTTEZUTi9oMHd0Zz09
+
+:calendar: June 3rd 13am - 15pm
+
+:door: tba
+
+:computer: [Online link](https://radbouduniversity.zoom.us/j/84154026905?pwd=Y3FZOVgzY2thTzdTTEZUTi9oMHd0Zz09)
 
 We will use this repository throughout the Git Workshop. All workshop material including exercises will be uploaded here a few days prior to the Workshop
 
@@ -18,9 +22,15 @@ Basic previous knowledge of local Git cycle required (e.g. you should know what 
 ## Tentative Schedule
 
 15:00 :wave: Welcome
+
 15:15 :speaker: Intro collaborating via Git (merge conflicts)
-15:30 :computer: Exercise 1 - Our first push
+
+15:30 :pencil2: Exercise 1 - Our first push
+
 14:40 :speaker: Branches, Forks & Pull requests
+
 16:00 :cookie: Break & Stretch
-16:05 :computer: Exercise 2 - Hands-on
-11:40 :mortar_board: Wrap-up
+
+16:05 :pencil2: Exercise 2 - Hands-on
+
+11:40 :ribbon: Wrap-up
