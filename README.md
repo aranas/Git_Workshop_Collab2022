@@ -21,16 +21,16 @@ Basic previous knowledge of local Git cycle required (e.g. you should know what 
 
 ## Tentative Schedule
 
-15:00 :wave: Welcome
+13:00 :wave: Welcome
 
-15:15 :speaker: Intro collaborating via Git (merge conflicts)
+13:15 :speaker: Intro collaborating via Git (merge conflicts)
 
-15:30 :pencil2: Exercise 1 - Our first push
+13:30 :pencil2: Exercise 1 - Our first push
 
-14:40 :speaker: Branches, Forks & Pull requests
+13:40 :speaker: Branches, Forks & Pull requests
 
-16:00 :cookie: Break & Stretch
+14:00 :cookie: Break & Stretch
 
-16:05 :pencil2: Exercise 2 - Hands-on
+14:05 :pencil2: Exercise 2 - Hands-on
 
-11:40 :ribbon: Wrap-up
+14:40 :ribbon: Wrap-up
