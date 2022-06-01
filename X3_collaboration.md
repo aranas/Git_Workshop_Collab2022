@@ -52,11 +52,10 @@ You can create new branches using the command ```git branch <name-of-branch>```.
 You have all the basic knowledge now to complete the issue. Time to get working:
 - Pull recent changes (in case one of your team members has gotten ahead of you).
 - Add your line to the file you have been assigned to.
-- Git add <your file>
-- Git commit -m "<your commit message>"
+- ```Git add <your file>```
+- ```Git commit -m "<your commit message >"```
 
 :memo: **Note**
-
 When you commit a change that is related to an issue, you can mention the issue in your commit message as ```#xxx```. The commit will then be listed under the respective issue. If you write ```fix #xxx``` the issue will automatically be closed.
 
 - Try to push your changes to the remote branch ```git push origin my-branch```
@@ -141,6 +140,38 @@ Fast-forward
 
 All other team members should pull those changes now.
 
-## Forks
+## Pull requests & Forks
 
-Once you are familiar with the steps above you can try out what the collaborative workflow looks like if you are **not** a contributor of a project. For example if you would like to improve code of a public project, you will usually not be allowed to directly push your changes. Instead you will need to [fork & request a pull](https://github.com/susam/gitpr) from the main developers.
+Once you are familiar with the steps above you can try out some of the other collaborative workflow.
+
+### feature branch + pull request
+
+Assign yourself to a new issue you haven't yet contributed to. This time, instead of working from the team-branch, create your own local branch. Pull the most recent changes, edit the file and push your local branch to the remote repo (see the how to in the note above). Once all this is done:
+
+- Go to the GitHub repository.
+- Switch to the topic branch.
+- Click Compare & pull request.
+- Click Create pull request.
+
+Assign one of the tutors to review your pull request before merging your branch into master. Voilá
+
+### forking + pull request
+
+If you would like to improve code of a public project, you will usually not be a collaborator and hence you will not be able to directly push your changes to the remote.
+Instead you will do the following:
+
+- Go to the remote GitHub repository (you can use ours for this toy example).
+- Fork it via the button on the top right.
+- Then clone your forked repository to your local machine.
+- Set the original repository as your 'upstream':
+```git remote add upstream https://GITHUB/UPSTREAM-OWNER/REPO.git```
+```git remote -v```
+- Create a new feature branch for your edits.
+- Push your changes to your fork
+- From the fork create the pull request as described above
+- Finally if your branch has been pulled into the upstream repository, make sure your fork's main branch is up-to-date"
+```git checkout master```
+```git pull upstream master```
+```git push origin master```
+
+If you want a more detailed description of this workflow, check out this resource: [https://github.com/susam/gitpr](https://github.com/susam/gitpr)
