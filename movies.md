@@ -1,1 +1,1 @@
-Training day!
+Cas - Training day :sunglasses:
