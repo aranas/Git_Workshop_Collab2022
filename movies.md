@@ -1,1 +1,1 @@
-Training day
+Training day!
